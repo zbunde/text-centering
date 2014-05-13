@@ -4,7 +4,9 @@
 
 * Fork
 * Clone
-* Turn on TravisCI building for the fork
+* Turn on TravisCI for the fork by 
+  visting https://travis-ci.org/profile/<github user name>, clicking the "Sync now" button
+  and scrolling down to find the repository to build.
 * Create a new branch for your work using `git checkout -b v1`
 * Implement specs and code
 * Push using `git push -u origin v1`
@@ -67,7 +69,7 @@ This warmup can be completed mulitple times to increqse your comfort level with 
 To work on this from scratch, you can:
 
 1. Add an upstream remote that points to the original repo `git remote add upstream git@github.com:gSchool/text-centering.git`
-1. Fetch the latest from the upstream remote using `git fecth upstream`
+1. Fetch the latest from the upstream remote using `git fetch upstream`
 1. Create a new branch from the master branch of the upstream remote `git checkout -b v2 upstream/master`
 1. Implement specs and code
 1. Push using `git push -u origin v2`
