@@ -4,10 +4,10 @@
 
 * Fork
 * Clone
+* Turn on TravisCI building for the fork
 * Create a new branch for your work using `git checkout -b v1`
 * Implement specs and code
 * Push using `git push -u origin v1`
-* Setup Travis CI to build all branches
 
 Right before you are done, please fill in `meta/student.json` with appropriate values and push.
 
