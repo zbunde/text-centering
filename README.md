@@ -4,9 +4,9 @@
 
 * Fork
 * Clone
-* `git checkout -b v1`
+* Create a new branch for your work using `git checkout -b v1`
 * Implement specs and code
-* Push
+* Push using `git push -u origin v1`
 * Setup Travis CI to build all branches
 
 Right before you are done, please fill in `meta/student.json` with appropriate values and push.
@@ -60,3 +60,16 @@ There should be no whitespace at the end.
 
 Create a class that will iterate through all of the .txt files in the data directory, center them, and save the
 centered text to a file named `<original filename>_centered.txt` in the `output` directory.
+
+# Further Practice
+
+This warmup can be completed mulitple times to increqse your comfort level with the material.
+To work on this from scratch, you can:
+1. Add an upstream remote that points to the original repo `git remote add upstream git@github.com:gSchool/text-centering.git`
+1. Fetch the latest from the upstream remote using `git fecth upstream`
+1. Create a new branch from the master branch of the upstream remote `git checkout -b v2 upstream/master`
+1. Implement specs and code
+1. Push using `git push -u origin v2`
+
+Each time you do the exercise, create a new branch. For example the 3rd time you do the exercise the branch
+name will be v3 instead of v2.
