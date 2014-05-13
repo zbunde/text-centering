@@ -1,0 +1,8 @@
+{
+  "baseLevel": 1,
+  "extraLevel": 2,
+  "tags": [
+    "strings", "file io"
+  ],
+  "goal": 25
+}
