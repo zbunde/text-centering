@@ -4,7 +4,7 @@
 
 * Fork
 * Clone
-* Turn on TravisCI for the fork by 
+* Turn on TravisCI for the fork by
   visting https://travis-ci.org/profile/<github user name>, clicking the "Sync now" button
   and scrolling down to find the repository to build.
 * Create a new branch for your work using `git checkout -b v1`
@@ -47,12 +47,38 @@ So your code needs to:
 
 In cases where there aren't an even number of characters in the front and back, round down on the leading spaces.
 
-So if true centering would be `17.5 / 10 / 17.5` your script should make it `17 / 10 / 18`.
+So if true centering would be `17.5 / 10 / 17.5` your script should make it `17 / 10 / 18`.  For example:
+
+```
+22
+12345
+```
+
+becomes:
+
+```
+ 22
+12345
+```
 
 ## Lines with spaces
 
 If the original line includes spaces, those should be ignored when centering.  All text should be centered in the output,
 regardless of what whitespace was there to begin with.
+
+For example:
+
+```
+   22
+12345
+```
+
+would become:
+
+```
+ 22
+1234
+```
 
 ## Whitespace at end
 
