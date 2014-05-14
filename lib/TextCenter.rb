@@ -8,17 +8,17 @@ class TextCenter
 
 
 # center the text based on longest string
-  
+
   def center
     length = longest_string(@text)
 
 
-    @text.map do |line|
+    @text.each do |line|
       if line.length < length
-
-
+          line.center(length).rstrip
       end
-    end
+      
+    end.join("\n")
 
 
   end

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../bin/TextCenter'
+require_relative '../lib/TextCenter'
 
 
 describe TextCenter do
@@ -17,6 +17,8 @@ this is a really long line that has a lot of characters
                       and this is
                          short
     EXPECTED
+
+
     sut = TextCenter.new(starting_text)
 
     expect(sut.center).to eq(expected)
